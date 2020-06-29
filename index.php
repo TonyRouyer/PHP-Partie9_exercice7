@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php 
+        //on affiche la date au format dat month year , au timestamp +15jours
         $futurDate = date('d-m-Y', strtotime('+15 days'));
     ?>
     <p><?= 'Dans 15 jours nous seront le  ' . $futurDate ?></p>
